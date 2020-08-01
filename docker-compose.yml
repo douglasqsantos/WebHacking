@@ -5,3 +5,5 @@ services:
     restart: always
     ports:
       - 80:80
+    volumes:
+      - ./php.ini:/etc/php/7.0/apache2/php.ini
